@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Syne:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">A. Student</a>
+      <nav class="nav-links">
+        <a data-page="index.html" href="index.html">Home</a>
+        <a data-page="projects.html" href="projects.html">Projects</a>
+        <a data-page="about.html" href="about.html">About</a>
+        <a data-page="contact.html" href="contact.html">Contact</a>
+        <a id="nav-admin" data-page="admin.html" href="admin.html" class="hidden">Admin</a>
+      </nav>
+      <div id="auth-slot"></div>
+    </div>
+  </header>
+
+  <main class="container page">
+    <section class="hero">
+      <div>
+        <h1>Computing Student · Oil & Gas Digital Systems</h1>
+        <p>Building resilient infrastructure at the intersection of networking, industrial automation, and cybersecurity engineering.</p>
+      </div>
+      <div class="skills-ticker" aria-label="skills ticker">
+        <div class="skills-track">
+          <span>Networking</span> · <span>SCADA</span> · <span>Cybersecurity</span> · <span>DevOps</span> ·
+          <span>Networking</span> · <span>SCADA</span> · <span>Cybersecurity</span> · <span>DevOps</span>
+        </div>
+      </div>
+      <div>
+        <a class="btn btn-primary" href="projects.html">Explore Projects</a>
+      </div>
+    </section>
+
+    <section style="margin-top:1.3rem;">
+      <h2>Featured Projects</h2>
+      <p>Selected work in network architecture, ICS security, and automation workflows.</p>
+      <div id="featured-projects" class="grid projects-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© 2026 A. Student · Digital Engineering Portfolio</div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
