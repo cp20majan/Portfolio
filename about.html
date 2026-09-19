@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | About</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Syne:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">A. Student</a>
+      <nav class="nav-links">
+        <a data-page="index.html" href="index.html">Home</a>
+        <a data-page="projects.html" href="projects.html">Projects</a>
+        <a data-page="about.html" href="about.html">About</a>
+        <a data-page="contact.html" href="contact.html">Contact</a>
+        <a id="nav-admin" data-page="admin.html" href="admin.html" class="hidden">Admin</a>
+      </nav>
+      <div id="auth-slot"></div>
+    </div>
+  </header>
+
+  <main class="container page">
+    <section class="card form-card">
+      <h1>About Me</h1>
+      <p>I am a computing student focused on high-availability infrastructure for industrial systems in oil & gas environments. My work blends secure networking, OT visibility, and automation-first operations.</p>
+      <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 1rem;">
+        <div>
+          <h2>Skills</h2>
+          <div class="skill-bars">
+            <p>Network Engineering</p><div class="bar"><span style="width:88%"></span></div>
+            <p>ICS/SCADA Security</p><div class="bar"><span style="width:84%"></span></div>
+            <p>Industrial Automation</p><div class="bar"><span style="width:80%"></span></div>
+            <p>DevOps & Observability</p><div class="bar"><span style="width:77%"></span></div>
+          </div>
+        </div>
+        <div>
+          <h2>Education & Certifications</h2>
+          <ul class="info-list">
+            <li><strong>BSc Computing</strong> — Industrial Systems Track</li>
+            <li>CompTIA Security+ (in progress)</li>
+            <li>Cisco CCNA coursework</li>
+            <li>IEC 62443 fundamentals workshop</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container">© 2026 A. Student</div></footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

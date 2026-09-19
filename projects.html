@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Projects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Syne:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">A. Student</a>
+      <nav class="nav-links">
+        <a data-page="index.html" href="index.html">Home</a>
+        <a data-page="projects.html" href="projects.html">Projects</a>
+        <a data-page="about.html" href="about.html">About</a>
+        <a data-page="contact.html" href="contact.html">Contact</a>
+        <a id="nav-admin" data-page="admin.html" href="admin.html" class="hidden">Admin</a>
+      </nav>
+      <div id="auth-slot"></div>
+    </div>
+  </header>
+
+  <main class="container page">
+    <h1>Projects</h1>
+    <p>Browse by domain and open each case study for details, assets, and implementation notes.</p>
+    <div id="filter-toolbar" class="toolbar"></div>
+    <div id="projects-grid" class="grid projects-grid"></div>
+  </main>
+
+  <footer><div class="container">© 2026 A. Student</div></footer>
+  <script src="js/app.js"></script>
+  <script src="js/projects.js"></script>
+</body>
+</html>
